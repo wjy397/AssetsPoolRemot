@@ -1,0 +1,72 @@
+{% load staticfiles %}{#加载静态文件#}
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <script src="{% static 'ext/ext-all.js' %}"></script>
+    <link href="{% static 'Resources/css/ext-all-gray.css' %}" rel="stylesheet" />
+    <script src="{% static 'ext/ext-lang-zh_CN.js' %}"></script>
+    <script src="{% static 'MD5/md5.js' %}"></script>
+    <script type="text/javascript" src="{% static 'ext/csrfExtjsCookies.js' %}"></script>
+    <script type="text/javascript" src="{% static 'jQuery/jquery-1.8.2.min.js' %}"></script>
+    <script src="{% static 'MoudleBaseJs/index.js' %}"></script>
+{#    <script src="{% static 'MoudleBaseJs/menu_manage.js' %}"></script>#}
+    <style type="text/css">
+        p {
+            margin:5px;
+            }
+    </style>
+    <script language="javascript" type="text/javascript">
+        function autoPlay(){
+        var myAuto = document.getElementById('myaudio');
+            myAuto.play();
+        }
+</script>
+</head>
+<body>
+    <!-- use class="x-hide-display" to prevent a brief flicker of the content -->
+    <div id="west" class="x-hide-display">
+    </div>
+    <div id="center1" class="x-hide-display">
+        <p><b>I HAVE A DREAM Aug.28, 1963</b></p>
+        <p>Five score years ago, a great American, in whose symbolic shadow we stand today, signed the Emancipation Proclamation. This momentous decree came as a great beacon light of hope to millions of Negro slaves who had been seared in the flames of withering injustice. It came as a joyous daybreak to end the long night of bad captivity. </p>
+        <p>But one hundred years later, the Negro still is not free. One hundred years later, the life of the Negro is still sadly crippled by the manacles of segregation and the chains of discrimination. One hundred years later, the Negro lives on a lonely island of poverty in the midst of a vast ocean of material prosperity. One hundred years later, the Negro is still languished in the corners of American society and finds himself an exile in his own land. So we’ve come here today to dramatize a shameful condition. </p>
+        <p>I am not unmindful that some of you have come here out of great trials and tribulations. Some of you have come fresh from narrow jail cells. Some of you have come from areas where your quest for freedom left you battered by the storms of persecution and staggered by the winds of police brutality. You have been the veterans of creative suffering. Continue to work with the faith that unearned suffering is redemptive. </p>
+        <p>Go back to Mississippi, go back to Alabama, go back to South Carolina, go back to Georgia, go back to Louisiana, go back to the slums and ghettos of our northern cities, knowing that somehow this situation can and will be changed. Let us not wallow in the valley of despair. </p>
+        <p>I say to you today, my friends, so even though we face the difficulties of today and tomorrow, I still have a dream. It is a dream deeply rooted in the American dream.I have a dream that one day this nation will rise up, live up to the true meaning of its creed: “We hold these truths to be self-evident; that all men are created equal.”I have a dream that one day on the red hills of Georgia the sons of former slaves and the sons of former slave-owners will be able to sit down together at the table of brotherhood.I have a dream that one day even the state of Mississippi, a state sweltering with the heat of injustice, sweltering with the heat of oppression, will be transformed into an oasis of freedom and justice. </p>
+        <p> I have a dream that my four children will one day live in a nation where they will not be judged by the color if their skin but by the content of their character. </p>
+        <p> I have a dream today. </p>
+        <p>  I have a dream that one day down in Alabama with its governor having his lips dripping with the words of interposition and nullification, one day right down in Alabama little black boys and black girls will be able to join hands with little white boys and white girls as sisters and brothers.</p>
+        <p>  I have a dream today. </p>
+        <p>  I have a dream that one day every valley shall be exalted, every hill and mountain shall be made low, the rough places will be made plain, and the crooked places will be made straight, and the glory of the Lord shall be revealed, and all flesh shall see it together. </p>
+        <p> This is our hope. This is the faith that I go back to the South with. With this faith we will be able to hew out of the mountain of despair a stone of hope. With this faith we will be able to transform the jangling discords of our nation into a beautiful symphony of brotherhood. With this faith we will be able to work together, to pray together, to struggle together, to go to jail together, to stand up for freedom together, knowing that we will be free one day.</p>
+        <p>  This will be the day when all of God’s children will be able to sing with new meaning. </p>
+        <p> My country, ’ tis of thee, </p>
+        <p>  Sweet land of liberty, </p>
+        <p>   Of thee I sing: </p>
+        <p>Land where my fathers died, </p>
+        <p>Land of the pilgrims’ pride, </p>
+        <p>From every mountainside </p>
+        <p>Let freedom ring. </p>
+        <p>And if America is to be a great nation this must become true. So let freedom ring from the prodigious hilltops of New Hampshire.</p>
+        <p>Let freedom ring from the mighty mountains of New York! </p>
+        <p>Let freedom ring from the heightening Alleghenies of Pennsylvania!</p>
+        <p>Let freedom ring from the snowcapped Rockies of Colorado! </p>
+        <p>Let freedom ring from the curvaceous slops of California! </p>
+        <p>But not only that; let freedom ring from Stone Mountain of Georgia!</p>
+        <p>Let freedom ring from Lookout Mountain of Tennessee! </p>
+        <p>Let freedom ring from every hill and molehill of Mississippi!</p>
+        <p>From every mountainside, let freedom ring! </p>
+        <p>When we let freedom ring, when we let it ring from every village and every hamlet, from every state and every city, we will be able to speed up that day when all of God’s children, black men and white men, Jews and Gentiles, Protestants and Catholics, will be able to join hands and sing in the words of the old Negro spiritual, “Free at last! free at last! thank God almighty, we are free at last!”</p>
+    </div>
+    <div id="props-panel" class="x-hide-display" style="width:200px;height:200px;overflow:hidden;">
+    </div>
+    <div id="south" class="x-hide-display">
+        <p style="display: inline-block">你在南方的艳阳里，大雪纷飞，我在北方的寒夜里，四季如春，如果天黑之前来得及，我要忘了你的眼睛，穷极一生，做不完一场梦&nbsp&nbsp&nbsp </p>
+        <audio id="myaudio" src="{% static 'imgs/南山南.mp3' %}" controls="controls" loop="true"   style="display: inline-block;margin-top: 25px">
+        </audio>
+        <input type="button" onclick="autoPlay()" value="播放" style="display: inline-block" />
+    </div>
+</body>
+</html>

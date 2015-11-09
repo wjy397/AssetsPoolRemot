@@ -1,0 +1,42 @@
+{% load staticfiles %}{#加载静态文件#}
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <script src="{% static 'ext/ext-all.js' %}"></script>
+    <link href="{% static 'Resources/css/ext-all-gray.css' %}" rel="stylesheet" />
+    <script src="{% static 'ext/ext-lang-zh_CN.js' %}"></script>
+    <script src="{% static 'MD5/md5.js' %}"></script>
+    <script type="text/javascript" src="{% static 'ext/csrfExtjsCookies.js' %}"></script>
+    <script src="{% static 'MoudleBaseJs/Login.js' %}"></script>
+</head>
+<body>
+<div style="width: 100%;height: 100%;position: relative">
+<img src="{% static 'imgs/Login/xili.jpg' %}" style="position: absolute; margin: 10% 0px 0px 25%;width: 313px;height:406px;display: inline-block" />
+    <p style="font-family:  微软雅黑,宋体;font-size: 5em;display: inline-block; margin: 10% 0 0 55%">资产管理库</p>
+            <div style="display: inline-block; margin: 2% 0 0 55%">
+            <ul style="list-style-type:none;">
+                <li style="margin: 5px 0 0 5px">
+                   登录名：<input id="txtUserName" name="" type="text" /></li>
+                <li style="margin: 5px 0 0 5px">
+                     密&nbsp;&nbsp;&nbsp;码：<input id="txtUserPass" type="password"  /></li>
+                <li style="margin: 5px 0 0 55px"><img style="width: 70px;height:25px;background-color: white;vertical-align:middle;" id="codeVerityImg" src="/msg/LoginCheckCodeImage" onclick="this.setAttribute('src','/msg/LoginCheckCodeImage?nocache='+Math.random());" /><input id="codeVerification" type="text"  style="width: 80px;height: 18px;vertical-align:middle;margin-left: 20px;"/></li>
+                <li style="margin: 5px 0 0 5px">
+                    <table style="margin-left: 40%">
+                        <tr>
+                            <td>
+                                <input class="loginbtn" id="btnLogin" value="登陆" type="button"  /></td>
+                            <td class="td_dir">
+                              <input class="loginchk" type="checkbox" id="rmbUser" /></td>
+                            <td class="td_font">记住密码</td>
+                        </tr>
+                    </table>
+
+                </li>
+            </ul>
+        </div>
+        <div style="position:fixed;left:40%; right:0;bottom:35px;">版权所有 &copy; 来自阿米巴星球吊炸天的屎壳郎 </div>
+</div>
+</body>
+</html>

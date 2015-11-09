@@ -1,0 +1,64 @@
+﻿/*添加*/
+.iconAdd {
+    background-image:url('../Images/Icons/add.png');
+}
+/*保存*/
+.iconCheck {
+    background-image:url('../Images/Icons/check.gif');
+}
+/*取消*/
+.iconBusy {
+    background-image:url('../Images/Icons/busy.gif');
+}
+/*删除*/
+.iconDelete {
+    background-image:url('../Images/Icons/delete.png');
+}
+/*编辑*/
+.iconEdit {
+    background-image:url('../Images/Icons/application_edit.png');
+}
+/*菜单权限*/
+.iconOrganisation {
+    background-image:url('../Images/Icons/chart_organisation.png');
+}
+/*用户绿色*/
+.iconUserGreen {
+    background-image:url('../Images/Icons/user_green.png');
+}
+
+/*左收缩*/
+.iconPageExpand {
+    background-image:url('../Images/Icons/application_side_expand.png');
+}
+
+/*下收缩*/
+.iconPagePut {
+    background-image:url('../Images/Icons/application_put.png');
+}
+
+/*文件删除*/
+.iconpageDelete {
+    background-image:url('../Images/Icons/page_delete.gif');
+}
+
+/*文件选择*/
+.iconpageCheck {
+    background-image:url('../Images/Icons/page_tick.gif');
+}
+
+/*查看详情*/
+.iconFormMagnify {
+    background-image:url('../Images/Icons/application_form_magnify.png');
+}
+/*撤销*/
+.iconCancel {
+     background-image:url('../Images/Icons/arrow_undo.png');
+}
+
+/*页头查询*/
+.SearchDiv {
+    color:black;
+    background-color:white;
+}
+
