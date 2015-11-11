@@ -25,21 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AssetsPoolApp/static/MoudleBaseJs/index.js">
+      <file leaf-file-name="viewsLogin.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AssetsPoolApp/Views/viewsLogin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44813278">
-              <caret line="52" column="31" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu_manage.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AssetsPoolApp/AppHtml/AdminPool/menu_manage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="62" />
+            <state vertical-scroll-proportion="0.5615491">
+              <caret line="61" column="102" selection-start-line="61" selection-start-column="102" selection-end-line="61" selection-end-column="102" />
               <folding />
             </state>
           </provider>
@@ -90,11 +80,11 @@
         <option value="$PROJECT_DIR$/AssetsPoolApp/static/MoudleBaseJs/user_manage.js" />
         <option value="$PROJECT_DIR$/AssetsPool/Urls/urlsBaseModule.py" />
         <option value="$PROJECT_DIR$/AssetsPoolApp/Controller/AdminPool/LoginController.py" />
-        <option value="$PROJECT_DIR$/AssetsPoolApp/Views/viewsLogin.py" />
         <option value="$PROJECT_DIR$/AssetsPoolApp/Models/sys_models.py" />
         <option value="$PROJECT_DIR$/AssetsPoolApp/static/MoudleBaseJs/menu_manage.js" />
         <option value="$PROJECT_DIR$/AssetsPoolApp/Controller/AdminPool/BaseModuleController.py" />
         <option value="$PROJECT_DIR$/AssetsPoolApp/Views/viewsBaseMoudule.py" />
+        <option value="$PROJECT_DIR$/AssetsPoolApp/Views/viewsLogin.py" />
       </list>
     </option>
   </component>
@@ -106,8 +96,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-79" />
-    <option name="y" value="37" />
+    <option name="x" value="164" />
+    <option name="y" value="18" />
     <option name="width" value="1593" />
     <option name="height" value="1056" />
   </component>
@@ -203,6 +193,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="MoudleBaseJs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AssetsPool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AssetsPool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AssetsPoolApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -597,8 +605,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-79" y="37" width="1593" height="1056" extended-state="0" />
-    <editor active="true" />
+    <frame x="164" y="18" width="1593" height="1056" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19784401" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -806,7 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33282208">
           <caret line="518" column="4" selection-start-line="518" selection-start-column="4" selection-end-line="518" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -814,7 +821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33282208">
           <caret line="253" column="0" selection-start-line="253" selection-start-column="0" selection-end-line="253" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -822,7 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33282208">
           <caret line="162" column="0" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -851,14 +856,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.02733813">
           <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AssetsPoolApp/static/MoudleBaseJs/Login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -918,23 +915,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AssetsPoolApp/Views/viewsLogin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
-          <folding>
-            <element signature="e#50#81#0" expanded="false" />
-            <element signature="e#3186#4505#0" expanded="false" />
-            <element signature="e#4553#5043#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AssetsPool/Urls/urlsLogin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.54771787">
           <caret line="30" column="38" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -949,26 +933,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-          <folding>
-            <element signature="e#3375#3648#0" expanded="false" />
-            <element signature="e#3715#4110#0" expanded="false" />
-            <element signature="e#4168#6362#0" expanded="false" />
-            <element signature="e#7268#7594#0" expanded="false" />
-            <element signature="e#7668#8265#0" expanded="false" />
-            <element signature="e#10763#10962#0" expanded="false" />
-            <element signature="e#11024#11264#0" expanded="false" />
-            <element signature="e#11316#11487#0" expanded="false" />
-            <element signature="e#11557#13158#0" expanded="false" />
-            <element signature="e#13213#13438#0" expanded="false" />
-            <element signature="e#13508#14251#0" expanded="false" />
-            <element signature="e#14306#14874#0" expanded="false" />
-            <element signature="e#14918#15296#0" expanded="false" />
-            <element signature="e#15303#15434#0" expanded="false" />
-            <element signature="e#24450#25079#0" expanded="false" />
-            <element signature="e#24506#24858#0" expanded="false" />
-            <element signature="e#24876#25024#0" expanded="false" />
-            <element signature="e#25165#25335#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -976,7 +940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="93" column="31" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -984,16 +947,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.74458873">
           <caret line="262" column="33" selection-start-line="262" selection-start-column="23" selection-end-line="262" selection-end-column="33" />
-          <folding>
-            <element signature="e#3960#5648#0" expanded="false" />
-            <element signature="e#9511#11036#0" expanded="false" />
-            <element signature="e#11092#11420#0" expanded="false" />
-            <element signature="e#11480#11809#0" expanded="false" />
-            <element signature="e#11872#12204#0" expanded="false" />
-            <element signature="e#12271#12658#0" expanded="false" />
-            <element signature="e#13661#14092#0" expanded="false" />
-            <element signature="e#17051#17058#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1001,9 +954,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39419088">
           <caret line="15" column="112" selection-start-line="15" selection-start-column="112" selection-end-line="15" selection-end-column="112" />
-          <folding>
-            <element signature="e#525#564#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1011,9 +961,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="145" column="6" selection-start-line="145" selection-start-column="6" selection-end-line="145" selection-end-column="6" />
-          <folding>
-            <element signature="e#525#564#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1021,18 +968,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="85" column="39" selection-start-line="85" selection-start-column="35" selection-end-line="85" selection-end-column="39" />
-          <folding>
-            <element signature="e#51#96#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsPoolApp/AppHtml/AdminPool/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54820144">
+          <caret line="60" column="78" selection-start-line="60" selection-start-column="78" selection-end-line="60" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsPoolApp/AppHtml/AdminPool/menu_manage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="62" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AssetsPoolApp/Views/viewsBaseMoudule.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="86" column="39" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
+          <caret line="96" column="33" selection-start-line="96" selection-start-column="33" selection-end-line="96" selection-end-column="33" />
           <folding>
-            <element signature="e#52#83#0" expanded="true" />
+            <element signature="e#52#83#0" expanded="false" />
             <element signature="e#963#1420#0" expanded="false" />
             <element signature="e#1481#1563#0" expanded="false" />
             <element signature="e#4534#4806#0" expanded="false" />
@@ -1053,26 +1012,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AssetsPoolApp/AppHtml/AdminPool/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54820144">
-          <caret line="60" column="78" selection-start-line="60" selection-start-column="78" selection-end-line="60" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AssetsPoolApp/AppHtml/AdminPool/menu_manage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AssetsPoolApp/static/MoudleBaseJs/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44813278">
+        <state vertical-scroll-proportion="0.0">
           <caret line="52" column="31" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsPoolApp/static/MoudleBaseJs/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.020674646">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsPoolApp/Views/viewsLogin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5615491">
+          <caret line="61" column="102" selection-start-line="61" selection-start-column="102" selection-end-line="61" selection-end-column="102" />
           <folding />
         </state>
       </provider>

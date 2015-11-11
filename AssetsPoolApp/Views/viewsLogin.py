@@ -55,10 +55,11 @@ def  loginSystem(request):
        _codeVerity = request.POST.get('codeVerity')
        _serverCheckcode =  request.session.get('checkcode',default=None)
        #验证码检测
-       # if(_serverCheckcode.lower()!=_codeVerity.lower()):                                               ///此注释用于开发快捷登陆
-       #      return HttpResponse("{'IsError':true,'ErrorMsg':'验证码错误!'}")                            /// 此注释用于开发快捷登陆
+       if(_serverCheckcode.lower()!=_codeVerity.lower()):                                              #此注释用于开发快捷登陆
+            return HttpResponse("{'IsError':true,'ErrorMsg':'验证码错误!'}")                            # 此注释用于开发快捷登陆
        #验证用户信息
        try:
+            request.session['checkcode'] =initCheckCodeVal(4)['cstr'].lower()  #更新验证码 防止携一次登录成功验证码DDOS
             _userController = UserController()
             _user = _userController.is_exit_user(_loginName)
             if(_user !=None and check_password(_loginPwd,_user.password)):
